@@ -12,9 +12,8 @@ Swift:
 
 3.	Create object in your controller:
       
-			//like
-		
-    	import SimpalmSpinner
+		//like
+		import SimpalmSpinner
 			
 		let spin = ASSpinner()
 
@@ -23,11 +22,11 @@ Swift:
     	let spin = ASSpinner()
 		spin.showLoaderWithMessage(message: "Apple   provides best product......!", onView:  self.view)
 
-    or
+    	or
 
     	spin.showLoader(onView: self.view)
 
-    or
+    	or
 
     	spin.showLoaderMessageWithInteraction(message: "Apple provide best product......", onView: self.view, interaction: true)
 
@@ -72,11 +71,11 @@ Objective C :
     
 		[loader showLoaderMessageWithInteractionWithMessage:@"Great Loader!" onView:self.view interaction:YES];
 
-or
+		or
 
 		[loader showLoaderWithMessageWithMessage:@"Great Loader!" onView:self.view];
 
-or
+		or
 
 		[loader showLoaderOnView:self.view];
 
