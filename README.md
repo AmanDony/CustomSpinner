@@ -88,13 +88,13 @@ Objective C :
 
 7.	We can change loader’s Background Color through.
 
-		// Added loader background color.
+		 // Added loader background color.
 
-		loader.spinnerBackgroundColor = [UIColor blueColor];
+		 loader.spinnerBackgroundColor = [UIColor blueColor];
 
 8.  We can change loader’s ScreenBackground Color through.
 
-		loader.screenBackgroundColor = [UIColor orangeColor];
+		 loader.screenBackgroundColor = [UIColor orangeColor];
 
 Thanks.
 
