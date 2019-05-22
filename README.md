@@ -1,6 +1,6 @@
 #SimpalmSpinner
 
-It is a simple loader framework where a iOS developer can easily use it according to their requirement on ongoing projects. Compatible with iOS 11 and above.
+It is a simple loader framework where a iOS developer can easily use it according to their requirement on ongoing projects. Compatible with iOS 10 and above.
 
 USE
 
@@ -15,11 +15,11 @@ Swift:
 		//like
 		import SimpalmSpinner
 			
-		let spin = ASSpinner()
+		let spin = SimpalmSpinner()
 
 4.	Call method spin.showLoader... to call loader on the screen with your given Message: and other parameters. Here we have three such       methods
 
-    	let spin = ASSpinner()
+    	let spin = SimpalmSpinner()
 		spin.showLoaderWithMessage(message: "Apple   provides best product......!", onView:  self.view)
 
     	or
@@ -62,12 +62,12 @@ Objective C :
 
 		@import SimpalmSpinner;
 
-		ASSpinner *spin = [ASSpinner new];
+		SimpalmSpinner *spin = [SimpalmSpinner new];
 
 5. Call method spin.showLoader... to call loader on the screen with your given Message: and other parameters.
 
 
-		ASSpinner *loader = [ASSpinner new];
+		SimpalmSpinner *loader = [SimpalmSpinner new];
     
 		[loader showLoaderMessageWithInteractionWithMessage:@"Great Loader!" onView:self.view interaction:YES];
 
